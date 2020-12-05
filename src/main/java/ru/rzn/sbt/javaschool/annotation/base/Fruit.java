@@ -5,7 +5,7 @@ package ru.rzn.sbt.javaschool.annotation.base;
  */
 public @interface Fruit {
 
-    String color();
+    String color() default "green";
 
     int count();
 }

@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
 }
 
 public class Single {
-    @MySingle(100)
+    @MySingle(100100)
     public static void myMeth() {
         Single ob = new Single();
         try {

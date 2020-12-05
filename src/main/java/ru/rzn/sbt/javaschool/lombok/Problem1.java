@@ -9,9 +9,13 @@ public class Problem1 {
     // private`ными, и писать для них getter`ы и setter`ы. Но почему мы обязаны это
     // писать?
 
-    class Example {
+    static class Example {
         @Getter
         @Setter
-        private int x;
+        private int x = 100500;
     }
+
+//    public static void main(String[] args) {
+//        System.out.println(new Example().getX());
+//    }
 }

@@ -23,9 +23,10 @@ import java.lang.reflect.Method;
 
 class RepeatAnno {
     //повторить аннотацию МyAnon в методе myМeth()
-    @MyAnno(str = "Первая аннотация", val = -1)
-    @MyAnno(str = "Вторая аннотация", val = 100)
+    //@MyAnno(str = "Первая аннотация", val = -1)
+    //@MyAnno(str = "Вторая аннотация", val = 100)
 
+    //@MyRepeatedAnnos()
     public static void myMeth(String str, int i) {
         RepeatAnno ob = new RepeatAnno();
         try {
